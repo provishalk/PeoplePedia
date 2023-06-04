@@ -4,7 +4,6 @@ module.exports = {
 
   // Run ESLint for linting and Prettier for formatting TypeScript and JavaScript files
   "**/*.(ts|tsx|js)": (filenames) => [
-    `eslint --fix ${filenames.join(" ")}`,
     `prettier --write ${filenames.join(" ")}`,
   ],
 
