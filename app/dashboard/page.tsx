@@ -4,7 +4,7 @@ const DashboardIndexPage = () => {
   return (
     <div>
       <h1>Hello World</h1>
-      <button disabled>Disabled button</button>
+      <button disabled>disabled</button>
     </div>
   );
 };
