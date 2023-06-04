@@ -11,9 +11,9 @@ describe("Dashboard page", () => {
     expect(header).toHaveTextContent(headerText);
   });
 
-  it("Should have disabled  button",()=>{
+  it("Should have disabled  button", () => {
     render(<DashboardIndexPage />);
     const button = screen.getByRole("button");
-    expect(button).toBeDisabled()
-  })
+    expect(button).toBeDisabled();
+  });
 });
