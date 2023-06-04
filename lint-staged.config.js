@@ -10,4 +10,7 @@ module.exports = {
 
   // Run Prettier for formatting MarkDown and JSON files
   "**/*.(md|json)": (filenames) => `prettier --write ${filenames.join(" ")}`,
+
+  // Run tests using React Testing Library
+  "**/*.test.(ts|tsx)": () => "jest",
 };
