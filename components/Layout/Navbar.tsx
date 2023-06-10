@@ -40,10 +40,12 @@ const Navbar: React.FC = () => {
             </div>
           </div>
           <div className="md:hidden">
-            <FaBars
+            <button
               className="text-white cursor-pointer text-2xl"
               onClick={toggleMenu}
-            />
+            >
+              <FaBars />
+            </button>
           </div>
         </div>
         {isMenuOpen && (
