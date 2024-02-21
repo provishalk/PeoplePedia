@@ -17,8 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <script>
-        {`(function (w, d, s, o, f, js, fjs) { w[o] = w[o] || function () { (w[o].q =
+      <script dangerouslySetInnerHTML={{__html:`(function (w, d, s, o, f, js, fjs) { w[o] = w[o] || function () { (w[o].q =
           w[o].q || []).push(arguments); }; (js = d.createElement(s)), (fjs =
           d.getElementsByTagName(s)[0]); js.id = o; js.src = f; js.async = 1;
           fjs.parentNode.insertBefore(js, fjs); })(window, document, "script", "_cvt",
@@ -27,7 +26,8 @@ export default function RootLayout({
             orgID: 'mailmodo',
             projectID: "0004ede9-b0b1-55d5-b0b2-819243f1c0ea_f5ad2069-61cf-4503-8b70-7e7b6eae5812",
             popupID: "ec25ac2c-7a17-45be-94e8-13f093af2e6e"
-          });`}
+          });`}}>
+        {}
       </script>
       </head>
       <body className={inter.className}>
