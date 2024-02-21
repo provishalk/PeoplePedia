@@ -8,8 +8,9 @@ const HomePage = () => {
     <div>
       <header className="bg-white py-8">
         <Script
-        src="https://cdn.convrrt.com/libs/popup/widget.js"
-        strategy="beforeInteractive"
+          id="custom-script"
+          src="https://cdn.convrrt.com/libs/popup/widget.js"
+          strategy="beforeInteractive"
       >
         {`
           (function (w, d, s, o, f, js, fjs) {
