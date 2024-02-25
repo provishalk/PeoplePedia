@@ -28,7 +28,7 @@ export default function RootLayout({
           });`}}>
         {}
       </script> */}
- <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=6da4a5dc8e2ee' async='true'></script> 
+ <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=6da4a5dc8e2ee' async=true></script> 
         
       </head>
       <body className={inter.className}>
