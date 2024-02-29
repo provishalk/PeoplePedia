@@ -16,19 +16,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-{/*       <script dangerouslySetInnerHTML={{__html:`(function (w, d, s, o, f, js, fjs) { w[o] = w[o] || function () { (w[o].q =
+      <script dangerouslySetInnerHTML={{__html:`(function (w, d, s, o, f, js, fjs) { w[o] = w[o] || function () { (w[o].q =
           w[o].q || []).push(arguments); }; (js = d.createElement(s)), (fjs =
           d.getElementsByTagName(s)[0]); js.id = o; js.src = f; js.async = 1;
           fjs.parentNode.insertBefore(js, fjs); })(window, document, "script", "_cvt",
           "https://cdn.convrrt.com/libs/popup/widget.js");
           _cvt("init", {
             orgID: 'mailmodo',
-            projectID: "fc904aef-83f3-561c-b35b-5b0dfe70d58c_4c55d66f-10fe-42d8-b76b-8bdd99c41212",
-            popupID: "63f14a97-cf59-4c84-9b06-f0348df4ad27"
+            projectID: "0004ede9-b0b1-55d5-b0b2-819243f1c0ea_f5ad2069-61cf-4503-8b70-7e7b6eae5812",
+            popupID: "00c07b23-cf4d-42e9-9c38-65b59d902a7e"
           });`}}>
         {}
-      </script> */}
- <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=6da4a5dc8e2ee' async={true}></script> 
+      </script>
+{/*  <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=6da4a5dc8e2ee' async={true}></script>  */}
         
       </head>
       <body className={inter.className}>
