@@ -15,8 +15,8 @@ const HomePage = () => {
           </p>
           <div className="flex justify-center mt-8">
             <Link
-              href="/directory"
-              className="bg-purple-500 text-white py-3 px-6 rounded-lg font-bold mr-4"
+              href="/dashboard"
+              className="bg-purple-500 text-white py-3 px-6 rounded-lg font-bold mr-4 open-converrt-popup"
             >
               Browse Directory
             </Link>
