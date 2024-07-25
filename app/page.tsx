@@ -10,7 +10,18 @@ const HomePage = () => {
           <h1 className="text-4xl font-bold text-gray-800 text-center">
             Welcome to PeoplePedia
           </h1>
+          <h1>Debug</h1>
           <iframe src="https://debug.mailmodo.com/" width="100%" height="800"></iframe>
+          <br/>
+          <br/>
+          <br/>
+          <h1>UAT</h1>
+          <iframe src="https://uat.mailmodo.com/" width="100%" height="800"></iframe>
+          <br/>
+          <br/>
+          <br/>
+          <h1>Manage</h1>
+          <iframe src="https://manage.mailmodo.com/" width="100%" height="800"></iframe>
           <p className="text-lg text-gray-600 text-center mt-4">
             The ultimate platform for connecting people and sharing knowledge.
           </p>
