@@ -23,8 +23,8 @@ export default function RootLayout({
           "https://cdn.convrrt.com/libs/popup/widget.js");
           _cvt("init", {
             orgID: 'mailmodo',
-            projectID: "c973af6f-be73-527f-b91c-de07c4f0ceab_54c59d4a-a9e6-45e6-96e7-cf96aa9e6814",
-            popupID: "7a694fd0-08e2-48b5-afea-ed9c477be211"
+            projectID: "05916e81-f952-542c-becf-ecfc42114fbd_d0dd6e5c-8d05-4ec3-8ade-664e5c84da93",
+            popupID: "5746df3f-b40e-497d-a685-cec61a9a2aa1"
           });`}}>
         {}
       </script>
