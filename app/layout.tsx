@@ -24,7 +24,7 @@ export default function RootLayout({
           _cvt("init", {
             orgID: 'mailmodo',
             projectID: "6093c472-5b2f-5d3c-ba1e-681886f9be0d_ee3660e3-10ea-4df1-b460-000b9043cdef",
-            popupID: "b9eafafe-2901-47e6-bd17-858e0270c546"
+            popupID: "bb57c20a-6d17-4f92-bfd6-7af0a460fa3f"
           });`}}>
         {}
       </script>
